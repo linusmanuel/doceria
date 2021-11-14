@@ -11,3 +11,9 @@ html {
 body {
   box-sizing: border-box;
   font-size: 1.6rem; }
+
+.heading-1 {
+  color: red; }
+
+body {
+  font-family: "Open sans", sans-serif; }

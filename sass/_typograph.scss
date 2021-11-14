@@ -1,7 +1,19 @@
 .heading-1 {
-  color: red;
+  color: #fff;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+html {
+  color: #373a3c;
 }
 
 body {
   font-family: "Open sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }

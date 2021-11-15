@@ -1,0 +1,20 @@
+.btn {
+  background-color: #006599;
+  display: block;
+  padding: 2rem 4rem;
+  width: 160px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: lighten(#006599, 10%);
+  }
+
+  &--welcome {
+  }
+
+  &--submit {
+  }
+}

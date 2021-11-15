@@ -1,0 +1,27 @@
+.section-welcome {
+  padding: 0;
+
+  &__inner {
+    display: flex;
+    gap: 3rem;
+    padding-left: 5rem;
+    padding-right: 3rem;
+  }
+
+  & .the-content {
+  }
+
+  .banner {
+    @include background;
+    background-image: url("../img/banner2.jpg");
+    height: 50rem;
+  }
+}
+
+.low-banner {
+  @include background;
+  background-image: url("../img/banner3.jpg");
+  width: 30rem;
+  height: 40rem;
+  flex-shrink: 0;
+}

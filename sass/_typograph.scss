@@ -17,3 +17,22 @@ body {
 a {
   text-decoration: none;
 }
+
+%heading {
+  color: #006599;
+  margin: 3rem 0;
+}
+
+.heading-2 {
+  @extend %heading;
+  font-size: 4.8rem;
+}
+
+.heading-3 {
+  font-size: 3.5rem;
+}
+
+.the-content p {
+  line-height: 2;
+  margin-bottom: 3rem;
+}

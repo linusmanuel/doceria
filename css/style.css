@@ -12,13 +12,55 @@ body {
   box-sizing: border-box;
   font-size: 1.6rem; }
 
+.btn {
+  background-color: #006599;
+  display: block;
+  padding: 2rem 4rem;
+  width: 160px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s; }
+  .btn:hover {
+    background-color: #0087cc; }
+
+.main-content {
+  width: calc(100% - 30rem);
+  margin-left: 300px; }
+
+section {
+  padding-left: 5rem; }
+
+.section-welcome {
+  padding: 0; }
+  .section-welcome__inner {
+    display: flex;
+    gap: 3rem;
+    padding-left: 5rem;
+    padding-right: 3rem; }
+  .section-welcome .banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/banner2.jpg");
+    height: 50rem; }
+
+.low-banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/banner3.jpg");
+  width: 30rem;
+  height: 40rem;
+  flex-shrink: 0; }
+
 .asidebar {
   display: flex;
   justify-content: space-around;
   background-color: #006599;
   position: fixed;
   width: 30rem;
-  height: 100vh;
+  height: 100%;
   padding: 4rem 0; }
   .asidebar-inner {
     display: flex;
@@ -56,3 +98,20 @@ body {
 
 a {
   text-decoration: none; }
+
+.heading-2 {
+  color: #006599;
+  margin: 3rem 0; }
+
+.heading-2 {
+  font-size: 4.8rem; }
+
+.heading-3 {
+  font-size: 3.5rem; }
+
+.the-content p {
+  line-height: 2;
+  margin-bottom: 3rem; }
+
+.u-margin-left-low {
+  margin-left: 5rem; }

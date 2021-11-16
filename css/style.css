@@ -12,6 +12,53 @@ body {
   box-sizing: border-box;
   font-size: 1.6rem; }
 
+.section-candy-1, .section-candy-2, .section-candy-3 {
+  padding-right: 4rem; }
+
+.gallery {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 3rem; }
+
+.candy-1__img {
+  background-size: cover;
+  width: 38%;
+  height: 20rem; }
+  .candy-1__img--1 {
+    background-image: url("/img/galeria1.jpg"); }
+  .candy-1__img--2 {
+    background-image: url("/img/galeria2.jpg"); }
+  .candy-1__img--3 {
+    background-image: url("/img/galeria3.jpg"); }
+  .candy-1__img--4 {
+    background-image: url("/img/galeria4.jpg"); }
+  .candy-1__img--5 {
+    background-image: url("/img/galeria5.jpg"); }
+
+.candy-2__img {
+  background-size: cover;
+  width: 38%;
+  height: 20rem; }
+  .candy-2__img--6 {
+    background-image: url("/img/galeria6.jpg"); }
+  .candy-2__img--7 {
+    background-image: url("/img/galeria7.jpg"); }
+  .candy-2__img--8 {
+    background-image: url("/img/galeria8.jpg"); }
+
+.candy-3__img {
+  background-size: cover;
+  width: 38%;
+  height: 20rem; }
+  .candy-3__img--9 {
+    background-image: url("/img/galeria9.jpg"); }
+  .candy-3__img--10 {
+    background-image: url("/img/galeria10.jpg"); }
+  .candy-3__img--11 {
+    background-image: url("/img/galeria11.jpg"); }
+  .candy-3__img--12 {
+    background-image: url("/img/galeria12.jpg"); }
+
 .btn {
   background-color: #006599;
   display: block;
@@ -30,6 +77,19 @@ body {
 
 section {
   padding-left: 5rem; }
+
+.section-about {
+  padding-right: 4rem; }
+  .section-about__inner {
+    display: flex;
+    gap: 3rem; }
+  .section-about .low-banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/banner4.jpg");
+    height: 40rem;
+    order: 2; }
 
 .section-welcome {
   padding: 0; }
@@ -107,7 +167,9 @@ a {
   font-size: 4.8rem; }
 
 .heading-3 {
-  font-size: 3.5rem; }
+  font-size: 3.5rem;
+  color: #006599;
+  margin-bottom: 3rem; }
 
 .the-content p {
   line-height: 2;

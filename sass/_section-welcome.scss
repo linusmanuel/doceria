@@ -8,9 +8,6 @@
     padding-right: 3rem;
   }
 
-  & .the-content {
-  }
-
   .banner {
     @include background;
     background-image: url("../img/banner2.jpg");

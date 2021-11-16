@@ -1,0 +1,15 @@
+.section-about {
+  padding-right: 4rem;
+
+  &__inner {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .low-banner {
+    @include background;
+    background-image: url("/img/banner4.jpg");
+    height: 40rem;
+    order: 2;
+  }
+}
